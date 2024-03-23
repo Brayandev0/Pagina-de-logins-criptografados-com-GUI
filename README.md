@@ -1,3 +1,4 @@
+
 ![image](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/eeba0786-fcde-40bc-9408-6f0826fad5ed)
 
 Esta pagina tem a função de mostrar as opções para o usuario 
@@ -33,3 +34,5 @@ com a opção de apagar os logins e ver os logins
 Como os logins ficam salvos :
 
 ![image](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/5005969f-8826-4669-8938-17af9c3898a6)
+
+Criptografia utilizada : Sha512
