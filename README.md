@@ -2,9 +2,6 @@
 ## Tela de login 
 ![Captura de tela_2024-06-29_12-07-01](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b97b589b-f468-4a99-98ce-e10d62305e9d)
 
-## Tela de registro de conta 
-![Captura de tela_2024-06-29_12-17-14](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b99236a0-43ae-468b-9650-9686dd059c24)
-
 ## Descrição
 Este é um sistema de Login desenvolvido em python com a biblioteca pyside6, utilizei o banco de dados mysql para manipular os dados  
 E o Pyqt designer para criar os layout da aplicação 
@@ -38,6 +35,9 @@ E o Pyqt designer para criar os layout da aplicação
 - Threading ( threading é um módulo que permite a execução de operações em segundo plano, utilizando threads. )
 - Random ( random é um módulo que implementa geradores de números pseudo-aleatórios para várias distribuições. )
 - Hashlib ( hashlib é um módulo que fornece uma interface para algoritmos de hash seguros, como SHA256. )
+
+## Tela de registro de conta 
+![Captura de tela_2024-06-29_12-17-14](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b99236a0-43ae-468b-9650-9686dd059c24)
   
 ## Tela de verificação 
 ![Captura de tela_2024-06-29_12-24-16](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/3424caed-831a-41f9-8ddc-55ee832e44ea)
