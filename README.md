@@ -36,7 +36,7 @@ E o Pyqt designer para criar os layout da aplicação
 ## Tela final Após o Login 
 ![Captura de tela_2024-06-29_12-27-23](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/a0b26ac1-1319-470c-a8a9-f136f031d024)
 
-## Pagina fale conosco do Menu de Opções
+## Pagina fale conosco do Menu de Ajuda
 ![Captura de tela_2024-06-29_12-30-29](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b722df86-d9eb-430a-94d2-7083fb209770)
 
 ## Telas de Erro da pagina de Login 
