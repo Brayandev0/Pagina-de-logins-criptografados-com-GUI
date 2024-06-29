@@ -8,27 +8,27 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 
 ## Proteções
 
-- Tratamento de todos os inputs de dados do usuário para prevenir vulnerabilidades comuns de injeção de código.
-- Utilização de Placeholders nos inputs destinados ao MySQL para prevenir SQL Injection.
-- Armazenamento de todas as senhas criptografadas com SHA-512 no MySQL.
-- Verificação por código enviado via email para login e criação de conta, adicionando uma camada extra de segurança.
-- Tratamento de erros e logs com mensagens de erro exibidas na tela.
+- **Tratamento de todos os inputs de dados do usuário para prevenir vulnerabilidades comuns de injeção de código.**
+- **Utilização de Placeholders nos inputs destinados ao MySQL para prevenir SQL Injection.**
+- **Armazenamento de todas as senhas criptografadas com SHA-512 no MySQL.**
+- **Verificação por código enviado via email para login e criação de conta, adicionando uma camada extra de segurança.**
+- **Tratamento de erros e logs com mensagens de erro exibidas na tela.**
 
 ## Funcionalidades da Tela de Login
 
-- Login seguro com verificação obrigatória.
-- Exibição de logs e telas de erro caso algo dê errado.
-- Limitação de caracteres para cada input.
-- Verificação da existência do login no banco de dados.
-- Função para visualizar a senha digitada.
+- **Login seguro com verificação obrigatória.**
+- **Exibição de logs e telas de erro caso algo dê errado.**
+- **Limitação de caracteres para cada input.**
+- **Verificação da existência do login no banco de dados.**
+- **Função para visualizar a senha digitada.****
 
 ## Funcionalidades da Tela de Registro de Conta
 
-- Limitação e tratamento para todos os inputs.
-- Exibição de telas e logs de erro.
-- Verificação de email e username já cadastrados para impedir duplicidade de conta.
-- Verificação de email através de código enviado para criar uma conta.
-- Função para visualizar a senha digitada.
+- **Limitação e tratamento para todos os inputs.**
+- **Exibição de telas e logs de erro.**
+- **Verificação de email e username já cadastrados para impedir duplicidade de conta.**
+- **Verificação de email através de código enviado para criar uma conta.**
+- **Função para visualizar a senha digitada.**
 
 ## Tecnologias Usadas
 
@@ -39,35 +39,35 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 - **Random**: random é um módulo que implementa geradores de números pseudo-aleatórios para várias distribuições.
 - **Hashlib**: hashlib é um módulo que fornece uma interface para algoritmos de hash seguros, como SHA-256.
 
-## Como ficam armazenados os login ( Tela DBeaver )
-![Captura de tela_2024-06-29_13-30-34](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/56aa51b2-7db3-4f13-af0d-819ed8dcb2af)
-
 ## Tela de registro de conta 
-![Captura de tela_2024-06-29_12-17-14](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b99236a0-43ae-468b-9650-9686dd059c24)
+**![Captura de tela_2024-06-29_12-17-14](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b99236a0-43ae-468b-9650-9686dd059c24)**
+
+## Como ficam armazenados os login ( Tela DBeaver )
+**![Captura de tela_2024-06-29_13-30-34](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/56aa51b2-7db3-4f13-af0d-819ed8dcb2af)**
   
 ## Tela de verificação 
-![Captura de tela_2024-06-29_12-24-16](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/3424caed-831a-41f9-8ddc-55ee832e44ea)
+**![Captura de tela_2024-06-29_12-24-16](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/3424caed-831a-41f9-8ddc-55ee832e44ea)**
 
 ## Email enviado 
-![Captura de tela_2024-06-29_12-25-46](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/375276e3-841e-442e-8fd7-bf22906a2b80)
+**![Captura de tela_2024-06-29_12-25-46](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/375276e3-841e-442e-8fd7-bf22906a2b80)**
 
 ## Tela final Após o Login 
-![Captura de tela_2024-06-29_12-27-23](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/a0b26ac1-1319-470c-a8a9-f136f031d024)
+**![Captura de tela_2024-06-29_12-27-23](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/a0b26ac1-1319-470c-a8a9-f136f031d024)**
 
 ## Pagina "Fale Conosco" do Menu de Ajuda
-![Captura de tela_2024-06-29_12-30-29](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b722df86-d9eb-430a-94d2-7083fb209770)
+**![Captura de tela_2024-06-29_12-30-29](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b722df86-d9eb-430a-94d2-7083fb209770)**
 
 ## Tela com Erros da Pagina de Login 
-- Foram colocadas apenas 4 telas para não comprometer a visibilidade, devido ao grande número de telas de erro.
-![Captura de tela_2024-06-29_12-32-25](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/0aa72b7d-595f-42df-a0e8-46410b1b982b)
-![Captura de tela_2024-06-29_12-32-57](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/79aabbc4-abbe-47ce-9195-db2a58d4e9da)
-![Captura de tela_2024-06-29_12-33-23](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/f81db7d7-b60d-4c39-b628-243ef4566abc)
-![Captura de tela_2024-06-29_12-35-30](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/eece4de7-f6a1-4f58-9158-b78655d8801e)
+- **Foram colocadas apenas 4 telas para não comprometer a visibilidade, devido ao grande número de telas de erro.**
+**![Captura de tela_2024-06-29_12-32-25](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/0aa72b7d-595f-42df-a0e8-46410b1b982b)**
+**![Captura de tela_2024-06-29_12-32-57](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/79aabbc4-abbe-47ce-9195-db2a58d4e9da)**
+**![Captura de tela_2024-06-29_12-33-23](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/f81db7d7-b60d-4c39-b628-243ef4566abc)**
+**![Captura de tela_2024-06-29_12-35-30](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/eece4de7-f6a1-4f58-9158-b78655d8801e)**
 
 ## Telas com Erros da Pagina de Cadastro
-- Foram colocadas apenas 4 telas para não comprometer a visibilidade, devido ao grande número de telas de erro.
+- **Foram colocadas apenas 4 telas para não comprometer a visibilidade, devido ao grande número de telas de erro.**
   
-![Captura de tela_2024-06-29_12-45-40](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/03f422d2-ebce-45fc-8813-dff96d4c32ae)
-![Captura de tela_2024-06-29_12-46-09](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/02941ecc-eb02-4453-94d5-3b9bcd4e3cee)
-![Captura de tela_2024-06-29_12-46-34](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/0fbf1123-2549-44f5-a4f0-93d5c7d29269)
-![Captura de tela_2024-06-29_12-47-01](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b842d742-62d3-4f1c-87ba-180bb061a6c1)
+**![Captura de tela_2024-06-29_12-45-40](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/03f422d2-ebce-45fc-8813-dff96d4c32ae)**
+**![Captura de tela_2024-06-29_12-46-09](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/02941ecc-eb02-4453-94d5-3b9bcd4e3cee)**
+**![Captura de tela_2024-06-29_12-46-34](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/0fbf1123-2549-44f5-a4f0-93d5c7d29269)**
+**![Captura de tela_2024-06-29_12-47-01](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b842d742-62d3-4f1c-87ba-180bb061a6c1)**
