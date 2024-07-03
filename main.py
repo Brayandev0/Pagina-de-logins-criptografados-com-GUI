@@ -103,7 +103,6 @@ class pagina_de_login(QWidget):
         self.login = login()
         self.login.setupUi(self)
         self.conectar_a_db()
-        self.clicado = 0
         self.login.input_senha.setEchoMode(QLineEdit.EchoMode.PasswordEchoOnEdit)
         self.login.Botao_login.clicked.connect(lambda: self.realizar_login())
         self.login.ver_senha.toggled.connect(lambda: self.ver_senha())
@@ -112,9 +111,8 @@ class pagina_de_login(QWidget):
         self.login.input_senha.setText('')
         self.login.Usuario_input.setText('')
     # Função ver senha 
-    def ver_senha(self):
-            self.clicado += 1
-            if self.clicado % 2 != 0:
+   def ver_senha(self):
+            if QCheckBox.isChecked(self.login.ver_senha):
                 self.login.input_senha.setEchoMode(QLineEdit.EchoMode.Normal)     
             else:
                 self.login.input_senha.setEchoMode(QLineEdit.EchoMode.PasswordEchoOnEdit)
@@ -310,7 +308,6 @@ class pagina_de_registro(QWidget):
     solicitar_verificacao = Signal()
     def __init__(self,parent=None ) :
         super().__init__(parent)
-        self.clicado = 0   
         self.tela_de_cadastro = Ui_Form()
         self.tela_de_cadastro.setupUi(self)
         self.pagina_de_login = pagina_de_login()
@@ -392,10 +389,9 @@ class pagina_de_registro(QWidget):
         return True
     # Define a função ver a senha 
     def ver_senha(self):
-        self.clicado += 1
-        if self.clicado % 2 != 0:
-            self.tela_de_cadastro.Input_senha.setEchoMode(QLineEdit.EchoMode.Normal)
-            self.tela_de_cadastro.verificar_senha.setEchoMode(QLineEdit.EchoMode.Normal)
+         if QCheckBox.isChecked(self.tela_de_cadastro.Ver_senha_):
+                self.tela_de_cadastro.Input_senha.setEchoMode(QLineEdit.EchoMode.Normal)
+                self.tela_de_cadastro.verificar_senha.setEchoMode(QLineEdit.EchoMode.Normal)     
         else:
             self.tela_de_cadastro.Input_senha.setEchoMode(QLineEdit.EchoMode.PasswordEchoOnEdit)
             self.tela_de_cadastro.verificar_senha.setEchoMode(QLineEdit.EchoMode.PasswordEchoOnEdit)
