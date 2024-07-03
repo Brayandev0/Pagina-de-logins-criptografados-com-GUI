@@ -13,6 +13,7 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 - **Armazenamento de todas as senhas criptografadas com SHA-512 no MySQL.**
 - **Verificação por código enviado via email para login e criação de conta, adicionando uma camada extra de segurança.**
 - **Tratamento de erros e logs com mensagens de erro exibidas na tela.**
+- **Conexão para enviar o Email criptografada com Tls e segura.**
 
 ## Funcionalidades da Tela de Login
 
