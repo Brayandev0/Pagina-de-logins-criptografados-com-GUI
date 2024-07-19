@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Utilize MySQL para manipulação dos dados e PyQt Designer para criar o layout da aplicação.
+Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Utilizei MySQL para manipulação dos dados e PyQt Designer para criar o layout da aplicação.
 
 ## Proteções
 
