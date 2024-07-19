@@ -21,7 +21,7 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 - **Exibição de logs e telas de erro caso algo dê errado.**
 - **Limitação de caracteres para cada input.**
 - **Verificação da existência do login no banco de dados.**
-- **Função para visualizar a senha digitada.****
+- **Função para visualizar a senha digitada.**
 
 ## Funcionalidades da Tela de Registro de Conta
 
