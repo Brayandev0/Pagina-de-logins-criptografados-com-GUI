@@ -1,6 +1,7 @@
 
-##                                                                               Tela de login 
-![Captura de tela_2024-06-29_12-07-01](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b97b589b-f468-4a99-98ce-e10d62305e9d)
+##                                                                               Painel de Acesso
+![Captura de tela_2024-08-01_19-16-45](https://github.com/user-attachments/assets/d4f4468d-a97c-4d0e-b421-85136c2e9c82)
+
 
 ## Descrição
 
@@ -23,14 +24,6 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 - **Verificação da existência do login no banco de dados.**
 - **Função para visualizar a senha digitada.**
 
-## Funcionalidades da Tela de Registro de Conta
-
-- **Limitação e tratamento para todos os inputs.**
-- **Exibição de telas e logs de erro.**
-- **Verificação de email e username já cadastrados para impedir duplicidade de conta.**
-- **Verificação de email através de código enviado para criar uma conta.**
-- **Função para visualizar a senha digitada.**
-
 ## Tecnologias Usadas
 
 - **PySide6**: Biblioteca oficial da Qt para Python, que permite a criação de interfaces gráficas de usuário (GUIs) robustas e modernas.
@@ -41,7 +34,15 @@ Este é um sistema de Login desenvolvido em Python com a biblioteca PySide6. Uti
 - **Hashlib**: hashlib é um módulo que fornece uma interface para algoritmos de hash seguros, como SHA-256.
 
 ## Tela de registro de conta 
-**![Captura de tela_2024-06-29_12-17-14](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/b99236a0-43ae-468b-9650-9686dd059c24)**
+** ![Captura de tela_2024-08-01_19-14-35](https://github.com/user-attachments/assets/f533be81-51fc-4378-a634-8b7d974d5720)**
+
+## Funcionalidades da Tela de Registro de Conta
+
+- **Limitação e tratamento para todos os inputs.**
+- **Exibição de telas e logs de erro.**
+- **Verificação de email e username já cadastrados para impedir duplicidade de conta.**
+- **Verificação de email através de código enviado para criar uma conta.**
+- **Função para visualizar a senha digitada.**
 
 ## Como ficam armazenados os login ( Tela DBeaver )
 **![Captura de tela_2024-06-29_13-30-34](https://github.com/Brayandev0/Pagina-de-logins-criptografados/assets/84828739/56aa51b2-7db3-4f13-af0d-819ed8dcb2af)**
