@@ -461,7 +461,7 @@ class enviando_email(Email_SMTP):
     def Enviando_email(self) -> bool:
       with smtplib.SMTP("smtp.gmail.com",587,timeout=30) as servidor:
         servidor.starttls()
-        servidor.login('verificar254@gmail.com','pztuufbqhkeyqvki')
+        servidor.login('verificar254@gmail.com',SS)
         servidor.sendmail(self.mensagem['from'],self.mensagem['to'],self.mensagem.as_string())
         return True
     def __call__(self, ) -> str:
